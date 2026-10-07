@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.parvizrahayan/portvan",
+  "title": "Portvan",
+  "description": "Branded IPFS gateway on your own domain: order by API, pay exact USDT (TRC20). Agent-ready catalog.",
+  "version": "1.0.0",
+  "websiteUrl": "https://portvan.brandone.ir",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://portvan.brandone.ir/mcp"
+    }
+  ]
+}
